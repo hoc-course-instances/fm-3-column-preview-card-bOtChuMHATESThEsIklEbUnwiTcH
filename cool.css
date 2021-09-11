@@ -1,0 +1,50 @@
+.all {
+   display: flex;
+   flex-direction: column;
+}
+
+.s1 {
+   padding: 5%;
+   background-color: orange;
+}
+
+.s2 {
+   padding: 5%;
+   background-color: orangered;
+}
+
+.s3 {
+   padding: 5%;
+   background-color: orchid;
+}
+
+@media screen and (min-width:600px){
+   .all {
+      flex-direction: row;
+   }
+}
+
+img {
+   height: 50% auto;
+   width: 50% auto;
+}
+
+
+.i1 {
+   z-index: 5;
+}
+
+.i2 {
+   display: inline;
+   z-index: 4;
+   
+}
+
+.i1:hover {
+display: none;
+z-index: 3;
+}
+
+.i2:hover {
+   display: inline;
+}
