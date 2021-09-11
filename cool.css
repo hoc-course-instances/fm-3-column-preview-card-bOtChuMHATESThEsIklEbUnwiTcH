@@ -35,16 +35,33 @@ img {
 }
 
 .i2 {
-   display: inline;
+   /* display: inline; */
    z-index: 4;
+   opacity: 0%;
    
 }
 
 .i1:hover {
-display: none;
+/* display: none; */
 z-index: 3;
+opacity: 0%;
 }
 
 .i2:hover {
-   display: inline;
+   /* display: inline; */
+   opacity:100%;
 }
+
+.img-button {
+   margin:0 auto;
+   height:80px;
+   width:200px;
+   background-image: url(images/learn_more.png);
+   background-size:cover;
+   background-position: center;
+}
+
+.img-button:hover {
+   background-image: url(images/learn_more1.png);
+}
+
